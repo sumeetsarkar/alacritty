@@ -1,0 +1,104 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+import:
+ - ~/.config/alacritty/themes/themes/everforest_dark.yaml
+ #- ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
+
+# Live config reload (changes require restart)
+live_config_reload: true
+
+# Setup term for programs to be able to use it
+env:
+  TERM: xterm-256color
+  LC_ALL: "en_US.UTF-8"
+
+cursor:
+  # Cursor style
+  #
+  # Values for 'style':
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+  unfocused_hollow: false
+
+
+window:
+  # Startup Mode (changes require restart)
+  # startup_mode: Fullscreen
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns: 140
+    lines: 30
+
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+  padding:
+    x: 1
+    y: 1
+
+# Spread additional padding evenly around the terminal content.
+dynamic_padding: false
+
+dynamic_title: true
+
+# Window decorations
+# Full | Transparent | Buttonless | None
+decorations: None
+
+# When true, bold text is drawn using the bright variant of colors.
+draw_bold_text_with_bright_colors: true
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 3
+
+# Font configuration
+font:
+  normal:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Italic
+  
+  bold_italic:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: BoldItalic
+
+  size: 16
+
+  # Offset is the extra space around each character. `offset.y` can be thought of
+  # as modifying the line spacing, and `offset.x` as modifying the letter spacing
+  # I've given in 14 spacing which fits really well with my fonts, you may change it
+  # to your convenience but make sure to adjust 'glyph_offset' appropriately post that
+  offset:
+   x: 0
+   y: 0
+
+  # Note: This requires RESTART
+  # By default when you change the offset above you'll see an issue, where the texts are bottom
+  # aligned with the cursor, this is to make sure they center align.
+  # This offset should usually be 1/2 of the above offset-y being set.
+  glyph_offset:
+    x: 0
+    # Keeping this as half of offset to vertically align the text in cursor
+    y: 0
+
+  # OS X only: use thin stroke font rendering. Thin strokes are suitable
+  # for retina displays, but for non-retina you probably want this set to
+  # false.
+  #use_thin_strokes: true
+
