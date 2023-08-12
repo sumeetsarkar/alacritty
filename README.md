@@ -7,3 +7,5 @@ chmod u+x init.sh
 ./init.sh
 ```
 
+Keep It Simle Stupid
+

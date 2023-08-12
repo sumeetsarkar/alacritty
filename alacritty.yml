@@ -1,8 +1,8 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
 import:
- - ~/.config/alacritty/themes/themes/everforest_dark.yaml
- #- ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
+  - ~/.config/alacritty/themes/themes/everforest_dark.yaml
+  #- ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
 
 # Live config reload (changes require restart)
 live_config_reload: true
@@ -29,27 +29,27 @@ window:
   # Window dimensions in character columns and lines
   # (changes require restart)
   dimensions:
-    columns: 140
-    lines: 30
+    columns: 120
+    lines: 40
+
+  # Full | Transparent | Buttonless | None
+  decorations: Full
+  opacity: 1
+  draw_bold_text_with_bright_colors: true
 
   # Adds this many blank pixels of padding around the window
   # Units are physical pixels; this is not DPI aware.
   # (change requires restart)
   padding:
-    x: 1
-    y: 1
+    x: 0
+    y: 0
 
-# Spread additional padding evenly around the terminal content.
-dynamic_padding: false
 
-dynamic_title: true
+selection:
+  # This string contains all characters that are used as separators for "semantic words" in Alacritty.
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
 
-# Window decorations
-# Full | Transparent | Buttonless | None
-decorations: None
-
-# When true, bold text is drawn using the bright variant of colors.
-draw_bold_text_with_bright_colors: true
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -96,9 +96,4 @@ font:
     x: 0
     # Keeping this as half of offset to vertically align the text in cursor
     y: 0
-
-  # OS X only: use thin stroke font rendering. Thin strokes are suitable
-  # for retina displays, but for non-retina you probably want this set to
-  # false.
-  #use_thin_strokes: true
 
