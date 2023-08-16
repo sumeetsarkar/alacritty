@@ -65,20 +65,56 @@ font:
   normal:
     family: JetBrainsMonoNL Nerd Font Mono
     style: Regular
-
   bold:
     family: JetBrainsMonoNL Nerd Font Mono
     style: Bold
-
   italic:
     family: JetBrainsMonoNL Nerd Font Mono
     style: Italic
-  
   bold_italic:
     family: JetBrainsMonoNL Nerd Font Mono
     style: BoldItalic
 
-  size: 16
+  #normal:
+    #family: FiraCode Nerd Font
+    #style: Regular
+  #bold:
+    #family: FiraCode Nerd Font
+    #style: Bold
+  #italic:
+    #family: FiraCode Nerd Font
+    #style: Italic
+  #bold_italic:
+    #family: FiraCode Nerd Font
+    #style: BoldItalic
+
+  #normal:
+    #family: BlexMono Nerd Font Mono
+    #style: Regular
+  #bold:
+    #family: BlexMono Nerd Font Mono
+    #style: Bold
+  #italic:
+    #family: BlexMono Nerd Font Mono
+    #style: Italic
+  #bold_italic:
+    #family: BlexMono Nerd Font Mono
+    #style: BoldItalic
+
+  #normal:
+    #family: CaskaydiaCove Nerd Font Mono
+    #style: Regular
+  #bold:
+    #family: CaskaydiaCove Nerd Font Mono
+    #style: Bold
+  #italic:
+    #family: CaskaydiaCove Nerd Font Mono
+    #style: Italic
+  #bold_italic:
+    #family: CaskaydiaCove Nerd Font Mono
+    #style: BoldItalic
+
+  size: 15
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing
