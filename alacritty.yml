@@ -70,30 +70,43 @@ scrolling:
 
 # Font configuration
 font:
+  #normal:
+    #family: JetBrainsMonoNL Nerd Font Mono
+    #style: Regular
+  #bold:
+    #family: JetBrainsMonoNL Nerd Font Mono
+    #style: Bold
+  #italic:
+    #family: JetBrainsMonoNL Nerd Font Mono
+    #style: Italic
+  #bold_italic:
+    #family: JetBrainsMonoNL Nerd Font Mono
+    #style: BoldItalic
+
   normal:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: ComicShannsMono Nerd Font
     style: Regular
   bold:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: ComicShannsMono Nerd Font
     style: Bold
   italic:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: ComicShannsMono Nerd Font
     style: Italic
   bold_italic:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: ComicShannsMono Nerd Font
     style: BoldItalic
 
   #normal:
-    #family: FiraCode Nerd Font
-    #style: Regular
+    #family: Comic Mono
+    #style: Normal
   #bold:
-    #family: FiraCode Nerd Font
+    #family: Comic Mono
     #style: Bold
   #italic:
-    #family: FiraCode Nerd Font
+    #family: ComicShannsMono Nerd Font
     #style: Italic
   #bold_italic:
-    #family: FiraCode Nerd Font
+    #family: ComicShannsMono Nerd Font
     #style: BoldItalic
 
   #normal:
@@ -109,20 +122,7 @@ font:
     #family: BlexMono Nerd Font Mono
     #style: BoldItalic
 
-  #normal:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: Regular
-  #bold:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: Bold
-  #italic:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: Italic
-  #bold_italic:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: BoldItalic
-
-  size: 15
+  size: 16
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing
