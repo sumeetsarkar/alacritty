@@ -42,7 +42,7 @@ window:
 
   # Full | Transparent | Buttonless | None
   decorations: Full
-  opacity: 1
+  opacity: .90
   draw_bold_text_with_bright_colors: true
 
   # Adds this many blank pixels of padding around the window
@@ -140,4 +140,16 @@ font:
     x: 0
     # Keeping this as half of offset to vertically align the text in cursor
     y: 0
+
+hints:
+    enabled:
+      - regex: "(magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+        command: open
+        post_processing: true
+        mouse:
+            enabled: true
+            mods: Command
+        binding:
+            key: U
+            mods: Command|Shift
 
