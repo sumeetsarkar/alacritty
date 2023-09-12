@@ -3,12 +3,13 @@
 import:
   #- ~/.config/alacritty/themes/themes/everforest_dark.yaml
   #- ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
+  #- ~/.config/alacritty/themes/themes/rose-pine-moon.yaml
   #- ~/.config/alacritty/nightfox.nvim/extra/carbonfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/dayfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/dawnfox/nightfox_alacritty.yml
-  #- ~/.config/alacritty/nightfox.nvim/extra/duskfox/nightfox_alacritty.yml
+  - ~/.config/alacritty/nightfox.nvim/extra/duskfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/nightfox/nightfox_alacritty.yml
-  - ~/.config/alacritty/nightfox.nvim/extra/nordfox/nightfox_alacritty.yml
+  #- ~/.config/alacritty/nightfox.nvim/extra/nordfox/nightfox_alacritty.yml
   #-~/.config/alacritty/nightfox.nvim/extra/terafox/nightfox_alacritty.yml
 
 
