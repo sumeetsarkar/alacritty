@@ -2,15 +2,22 @@
 
 import:
   #- ~/.config/alacritty/themes/themes/everforest_dark.yaml
-  #- ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
+  - ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
   #- ~/.config/alacritty/themes/themes/rose-pine-moon.yaml
   #- ~/.config/alacritty/nightfox.nvim/extra/carbonfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/dayfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/dawnfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/duskfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/nightfox/nightfox_alacritty.yml
-  - ~/.config/alacritty/nightfox.nvim/extra/nordfox/nightfox_alacritty.yml
+  #- ~/.config/alacritty/nightfox.nvim/extra/nordfox/nightfox_alacritty.yml
   #-~/.config/alacritty/nightfox.nvim/extra/terafox/nightfox_alacritty.yml
+  # Font configuration
+  - ~/.config/alacritty/fonts/jetbrains_mono.yml
+  #- ~/.config/alacritty/fonts/comicshanns_mono.yml
+  #- ~/.config/alacritty/fonts/caskaydia_cove_mono.yml
+  #- ~/.config/alacritty/fonts/blex_mono.yml
+  #- ~/.config/alacritty/fonts/meslo_lgs_mono.yml
+  #- ~/.config/alacritty/fonts/mononoki_mono.yml
 
 
 # Live config reload (changes require restart)
@@ -71,104 +78,14 @@ scrolling:
 
 # Font configuration
 font:
-  normal:
-    family: JetBrainsMonoNL Nerd Font Mono
-    style: Regular
-  bold:
-    family: JetBrainsMonoNL Nerd Font Mono
-    style: Bold
-  italic:
-    family: JetBrainsMonoNL Nerd Font Mono
-    style: Italic
-  bold_italic:
-    family: JetBrainsMonoNL Nerd Font Mono
-    style: BoldItalic
-
-  #normal:
-    #family: ComicShannsMono Nerd Font
-    #style: Regular
-  #bold:
-    #family: ComicShannsMono Nerd Font
-    #style: Bold
-  #italic:
-    #family: ComicShannsMono Nerd Font
-    #style: Italic
-  #bold_italic:
-    #family: ComicShannsMono Nerd Font
-    #style: BoldItalic
-
-  #normal:
-    #family: Comic Mono
-    #style: Normal
-  #bold:
-    #family: Comic Mono
-    #style: Bold
-  #italic:
-    #family: ComicShannsMono Nerd Font
-    #style: Italic
-  #bold_italic:
-    #family: ComicShannsMono Nerd Font
-    #style: BoldItalic
-
-  #normal:
-    #family: BlexMono Nerd Font Mono
-    #style: Regular
-  #bold:
-    #family: BlexMono Nerd Font Mono
-    #style: Bold
-  #italic:
-    #family: BlexMono Nerd Font Mono
-    #style: Italic
-  #bold_italic:
-    #family: BlexMono Nerd Font Mono
-    #style: BoldItalic
-
-  #normal:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: Regular
-  #bold:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: SemiBold
-  #italic:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: Italic
-  #bold_italic:
-    #family: CaskaydiaCove Nerd Font Mono
-    #style: Semibold Italic
-
-  #normal:
-    #family: MesloLGS Nerd Font Mono
-    #style: Regular
-  #bold:
-    #family: MesloLGS Nerd Font Mono
-    #style: Bold
-  #italic:
-    #family: MesloLGS Nerd Font Mono
-    #style: Italic
-  #bold_italic:
-    #family: MesloLGS Nerd Font Mono
-    #style: Bold Italic
-
-  #normal:
-    #family: Mononoki Nerd Font Mono
-    #style: Bold
-  #bold:
-    #family: Mononoki Nerd Font Mono
-    #style: Bold
-  #italic:
-    #family: Mononoki Nerd Font Mono
-    #style: Italic
-  #bold_italic:
-    #family: Mononoki Nerd Font Mono
-    #style: BoldItalic
-
   size: 16
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing
+  # {} :q
   offset:
    x: 0
-   y: 8
+   y: 0
   # Note: This requires RESTART
   # By default when you change the offset above you'll see an issue, where the texts are bottom
   # aligned with the cursor, this is to make sure they center align.
@@ -176,7 +93,7 @@ font:
   glyph_offset:
     x: 0
     # Keeping this as half of offset to vertically align the text in cursor
-    y: 4
+    y: 0
 
 hints:
     enabled:
