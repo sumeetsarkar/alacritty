@@ -2,10 +2,10 @@
 
 import:
   #- ~/.config/alacritty/themes/themes/everforest_dark.yaml
-  - ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
+  #- ~/.config/alacritty/themes/themes/rose-pine-dawn.yaml
   #- ~/.config/alacritty/themes/themes/rose-pine-moon.yaml
   #- ~/.config/alacritty/nightfox.nvim/extra/carbonfox/nightfox_alacritty.yml
-  #- ~/.config/alacritty/nightfox.nvim/extra/dayfox/nightfox_alacritty.yml
+  - ~/.config/alacritty/nightfox.nvim/extra/dayfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/dawnfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/duskfox/nightfox_alacritty.yml
   #- ~/.config/alacritty/nightfox.nvim/extra/nightfox/nightfox_alacritty.yml
@@ -78,14 +78,14 @@ scrolling:
 
 # Font configuration
 font:
-  size: 16
+  size: 15
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing
   # {} :q
   offset:
    x: 0
-   y: 0
+   y: 8
   # Note: This requires RESTART
   # By default when you change the offset above you'll see an issue, where the texts are bottom
   # aligned with the cursor, this is to make sure they center align.
@@ -93,7 +93,7 @@ font:
   glyph_offset:
     x: 0
     # Keeping this as half of offset to vertically align the text in cursor
-    y: 0
+    y: 4
 
 hints:
     enabled:
